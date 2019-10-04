@@ -27,7 +27,7 @@ int main(){
                     }
                     else if(j>=n){
                         printf("0u0 ...... ?\n");   //如果要殺的人不存在
-                        break;
+                        break;//
                     }
                 }                
             }
