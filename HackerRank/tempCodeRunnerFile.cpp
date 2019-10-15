@@ -1,0 +1,2 @@
+ount ; i++){
+        char step;
