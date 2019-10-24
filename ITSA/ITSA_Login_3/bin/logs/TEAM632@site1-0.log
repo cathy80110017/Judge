@@ -1,0 +1,182 @@
+191022 160939.566|CONFIG|Thread-2|setFileHandlers|Now logging to /home/cathy/Desktop/ITSA_Login_3/bin/logs directory.
+191022 160939.567|INFO|Thread-2|info|
+191022 160939.567|INFO|Thread-2|info|Version 9.5.3 20180207 (Wednesday, February 7th 2018 04:25 UTC) Java ver 11.0.4 build 4653 Linux 5.0.0-32-generic (amd64) 
+191022 160939.567|INFO|Thread-2|info|Login: team632 (aka team632)
+191022 160939.567|INFO|Thread-2|startLog|Working directory is /home/cathy/Desktop/ITSA_Login_3/bin
+191022 160939.567|INFO|Thread-2|startLog|Process id is 16865@cathy-StudentA
+191022 160939.567|INFO|Thread-2|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+191022 160939.575|INFO|Thread-2|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+191022 160939.768|INFO|Thread-2|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+191022 160939.770|INFO|Thread-2|info|handlePacket end Packet[LOGIN_SUCCESS] #35 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 160939.770|INFO|Thread-2|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #35 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 195827.128|CONFIG|Thread-2|setFileHandlers|Now logging to /home/cathy/Desktop/ITSA_Login_3/bin/logs directory.
+191022 195827.129|INFO|Thread-2|info|
+191022 195827.129|INFO|Thread-2|info|Version 9.5.3 20180207 (Wednesday, February 7th 2018 04:25 UTC) Java ver 11.0.4 build 4653 Linux 5.0.0-32-generic (amd64) 
+191022 195827.129|INFO|Thread-2|info|Login: team632 (aka team632)
+191022 195827.130|INFO|Thread-2|startLog|Working directory is /home/cathy/Desktop/ITSA_Login_3/bin
+191022 195827.130|INFO|Thread-2|startLog|Process id is 18729@cathy-StudentA
+191022 195827.130|INFO|Thread-2|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+191022 195827.138|INFO|Thread-2|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+191022 195827.333|INFO|Thread-2|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+191022 195827.334|INFO|Thread-2|info|handlePacket end Packet[LOGIN_SUCCESS] #85 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 195827.335|INFO|Thread-2|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #85 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 201649.457|INFO|Thread-3|testRun|test run for Problem1 GNU C++11 file: /home/cathy/Desktop/Judge/ITSA/74次/test/test01.cpp
+191022 201649.502|DEBUG|Thread-3|compileProgram|before substitution: g++ -lm -O2 -std=c++11 -o {:basename}.exe {:mainfile}
+191022 201649.503|DEBUG|Thread-3|compileProgram|after  substitution: g++ -lm -O2 -std=c++11 -o test01.exe test01.cpp
+191022 201649.514|CONFIG|Thread-3|runProgram|executing: 'g++ -lm -O2 -std=c++11 -o test01.exe test01.cpp'
+191022 201658.318|DEBUG|Thread-3|executeProgram|before substitution: .\{:basename}.exe
+191022 201658.322|DEBUG|Thread-3|executeProgram|after  substitution: .\test01.exe
+191022 201658.324|CONFIG|Thread-3|runProgram|executing: '.\test01.exe'
+191022 201658.328|CONFIG|Thread-3|runProgram|Note: exec failed in RunProgram Cannot run program ".\test01.exe" (in directory "executesite1team632"): error=2, No such file or directory
+191022 201706.077|INFO|Thread-8|testRun|test run for Problem1 GNU C++11 file: /home/cathy/Desktop/Judge/ITSA/74次/test/test01.cpp
+191022 201706.096|DEBUG|Thread-8|compileProgram|before substitution: g++ -lm -O2 -std=c++11 -o {:basename}.exe {:mainfile}
+191022 201706.098|DEBUG|Thread-8|compileProgram|after  substitution: g++ -lm -O2 -std=c++11 -o test01.exe test01.cpp
+191022 201706.111|CONFIG|Thread-8|runProgram|executing: 'g++ -lm -O2 -std=c++11 -o test01.exe test01.cpp'
+191022 201710.706|DEBUG|Thread-8|executeProgram|before substitution: .\{:basename}.exe
+191022 201710.708|DEBUG|Thread-8|executeProgram|after  substitution: .\test01.exe
+191022 201710.709|CONFIG|Thread-8|runProgram|executing: '.\test01.exe'
+191022 201710.718|CONFIG|Thread-8|runProgram|Note: exec failed in RunProgram Cannot run program ".\test01.exe" (in directory "executesite1team632"): error=2, No such file or directory
+191022 201720.712|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Problem1 GNU C++11 file: /home/cathy/Desktop/Judge/ITSA/74次/test/test01.cpp
+191022 201720.714|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM632 @ site 1 -> SERVER0 @ site 1
+191022 201720.716|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM632 @ site 1 -> SERVER0 @ site 1
+191022 201720.803|INFO|Thread-14|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #138 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 201720.804|INFO|Thread-14|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #138 ) recieveObject
+191022 201720.804|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (ntust @ 127.0.1.1) (Contest Id: Default-5078223832395999985)
+191022 201720.805|INFO|Thread-14|dumpPacket|    To: TEAM632 @ site 1
+191022 201720.805|INFO|Thread-14|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 11 QUEUED_FOR_COMPUTER_JUDGEMENT 495 min 29713791ms from TEAM632 @ site 1 id Run-9043366441130014625 problem Problem1--7237535937124190833 lang GNU C++11--1280420283167509282
+191022 201720.805|INFO|Thread-14|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #138 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 201720.806|INFO|Thread-14|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #138 ) handlePacket
+191022 201720.806|INFO|Thread-14|dumpPacket|  From: SERVER0 @ site 1 (ntust @ 127.0.1.1) (Contest Id: Default-5078223832395999985)
+191022 201720.806|INFO|Thread-14|dumpPacket|    To: TEAM632 @ site 1
+191022 201720.806|INFO|Thread-14|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 11 QUEUED_FOR_COMPUTER_JUDGEMENT 495 min 29713791ms from TEAM632 @ site 1 id Run-9043366441130014625 problem Problem1--7237535937124190833 lang GNU C++11--1280420283167509282
+191022 201722.474|INFO|Thread-15|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #142 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 201722.475|INFO|Thread-15|dumpPacket|Packet RUN_JUDGEMENT (Seq #142 ) recieveObject
+191022 201722.477|INFO|Thread-15|dumpPacket|  From: SERVER0 @ site 1 (ntust @ 127.0.1.1) (Contest Id: Default-5078223832395999985)
+191022 201722.478|INFO|Thread-15|dumpPacket|    To: TEAM632 @ site 1
+191022 201722.479|INFO|Thread-15|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 11 JUDGED 495 min 29713791ms from TEAM632 @ site 1 id Run-9043366441130014625 problem Problem1--7237535937124190833 lang GNU C++11--1280420283167509282
+191022 201722.480|INFO|Thread-15|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer--825758851014341951 id JudgementRecord--884797075752878478
+191022 201722.481|INFO|Thread-15|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+191022 201722.482|INFO|Thread-15|info|handlePacket start Packet[RUN_JUDGEMENT] #142 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 201722.483|INFO|Thread-15|dumpPacket|Packet RUN_JUDGEMENT (Seq #142 ) handlePacket
+191022 201722.484|INFO|Thread-15|dumpPacket|  From: SERVER0 @ site 1 (ntust @ 127.0.1.1) (Contest Id: Default-5078223832395999985)
+191022 201722.485|INFO|Thread-15|dumpPacket|    To: TEAM632 @ site 1
+191022 201722.486|INFO|Thread-15|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 11 JUDGED 495 min 29713791ms from TEAM632 @ site 1 id Run-9043366441130014625 problem Problem1--7237535937124190833 lang GNU C++11--1280420283167509282
+191022 201722.487|INFO|Thread-15|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer--825758851014341951 id JudgementRecord--884797075752878478
+191022 201722.488|INFO|Thread-15|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+191022 201751.506|INFO|Thread-15|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #142 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 201754.390|INFO|Thread-14|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #138 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 202028.238|CONFIG|Thread-2|setFileHandlers|Now logging to /home/cathy/Desktop/Judge/ITSA/ITSA_Login_3/bin/logs directory.
+191022 202028.238|INFO|Thread-2|info|
+191022 202028.238|INFO|Thread-2|info|Version 9.5.3 20180207 (Wednesday, February 7th 2018 04:25 UTC) Java ver 11.0.4 build 4653 Linux 5.0.0-32-generic (amd64) 
+191022 202028.238|INFO|Thread-2|info|Login: team632 (aka team632)
+191022 202028.238|INFO|Thread-2|startLog|Working directory is /home/cathy/Desktop/Judge/ITSA/ITSA_Login_3/bin
+191022 202028.239|INFO|Thread-2|startLog|Process id is 20139@cathy-StudentA
+191022 202028.239|INFO|Thread-2|info|Attempting to load UI class edu.csus.ecs.pc2.ui.team.TeamView
+191022 202028.248|INFO|Thread-2|info|Loaded UI class edu.csus.ecs.pc2.ui.team.TeamView
+191022 202028.431|INFO|Thread-2|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+191022 202028.432|INFO|Thread-2|info|handlePacket end Packet[LOGIN_SUCCESS] #149 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 202028.433|INFO|Thread-2|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #149 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 202129.578|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Problem1 GNU C++11 file: /home/cathy/Desktop/Judge/ITSA/74次/test/test01.cpp
+191022 202129.581|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #2 TEAM632 @ site 1 -> SERVER0 @ site 1
+191022 202129.582|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #2 TEAM632 @ site 1 -> SERVER0 @ site 1
+191022 202129.639|INFO|Thread-4|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #151 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 202129.640|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #151 ) recieveObject
+191022 202129.642|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (ntust @ 127.0.1.1) (Contest Id: Default-5078223832395999985)
+191022 202129.642|INFO|Thread-4|dumpPacket|    To: TEAM632 @ site 1
+191022 202129.643|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 12 QUEUED_FOR_COMPUTER_JUDGEMENT 499 min 29962634ms from TEAM632 @ site 1 id Run--2323493944152952471 problem Problem1--7237535937124190833 lang GNU C++11--1280420283167509282
+191022 202129.646|INFO|Thread-4|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #151 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 202129.647|INFO|Thread-4|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #151 ) handlePacket
+191022 202129.648|INFO|Thread-4|dumpPacket|  From: SERVER0 @ site 1 (ntust @ 127.0.1.1) (Contest Id: Default-5078223832395999985)
+191022 202129.649|INFO|Thread-4|dumpPacket|    To: TEAM632 @ site 1
+191022 202129.649|INFO|Thread-4|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 12 QUEUED_FOR_COMPUTER_JUDGEMENT 499 min 29962634ms from TEAM632 @ site 1 id Run--2323493944152952471 problem Problem1--7237535937124190833 lang GNU C++11--1280420283167509282
+191022 202131.184|INFO|Thread-5|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #155 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 202131.185|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #155 ) recieveObject
+191022 202131.187|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (ntust @ 127.0.1.1) (Contest Id: Default-5078223832395999985)
+191022 202131.188|INFO|Thread-5|dumpPacket|    To: TEAM632 @ site 1
+191022 202131.190|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 12 JUDGED 499 min 29962634ms from TEAM632 @ site 1 id Run--2323493944152952471 problem Problem1--7237535937124190833 lang GNU C++11--1280420283167509282
+191022 202131.191|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer--825758851014341951 id JudgementRecord--7277915198129401942
+191022 202131.192|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+191022 202131.193|INFO|Thread-5|info|handlePacket start Packet[RUN_JUDGEMENT] #155 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 202131.195|INFO|Thread-5|dumpPacket|Packet RUN_JUDGEMENT (Seq #155 ) handlePacket
+191022 202131.196|INFO|Thread-5|dumpPacket|  From: SERVER0 @ site 1 (ntust @ 127.0.1.1) (Contest Id: Default-5078223832395999985)
+191022 202131.197|INFO|Thread-5|dumpPacket|    To: TEAM632 @ site 1
+191022 202131.199|INFO|Thread-5|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 12 JUDGED 499 min 29962634ms from TEAM632 @ site 1 id Run--2323493944152952471 problem Problem1--7237535937124190833 lang GNU C++11--1280420283167509282
+191022 202131.200|INFO|Thread-5|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord No by JUDGE1 @ site 1 judgement No - Wrong Answer--825758851014341951 id JudgementRecord--7277915198129401942
+191022 202131.201|INFO|Thread-5|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+191022 202137.281|INFO|Thread-5|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #155 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 202140.339|INFO|Thread-4|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #151 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 202146.436|INFO|Thread-6|testRun|test run for Problem1 GNU C++11 file: /home/cathy/Desktop/Judge/ITSA/74次/test/test01.cpp
+191022 202146.471|DEBUG|Thread-6|compileProgram|before substitution: g++ -lm -O2 -std=c++11 -o {:basename}.exe {:mainfile}
+191022 202146.472|DEBUG|Thread-6|compileProgram|after  substitution: g++ -lm -O2 -std=c++11 -o test01.exe test01.cpp
+191022 202146.479|CONFIG|Thread-6|runProgram|executing: 'g++ -lm -O2 -std=c++11 -o test01.exe test01.cpp'
+191022 202149.905|DEBUG|Thread-6|executeProgram|before substitution: .\{:basename}.exe
+191022 202149.908|DEBUG|Thread-6|executeProgram|after  substitution: .\test01.exe
+191022 202149.909|CONFIG|Thread-6|runProgram|executing: '.\test01.exe'
+191022 202149.914|CONFIG|Thread-6|runProgram|Note: exec failed in RunProgram Cannot run program ".\test01.exe" (in directory "executesite1team632"): error=2, No such file or directory
+191022 203008.246|INFO|AWT-EventQueue-0|testOrSubmitRun|submitRun for Problem1 GNU C++11 file: /home/cathy/Desktop/Judge/ITSA/74次/test/test01.cpp
+191022 203008.249|INFO|AWT-EventQueue-0|sendToLocalServer|Sending packet to server Packet[RUN_SUBMISSION] #3 TEAM632 @ site 1 -> SERVER0 @ site 1
+191022 203008.250|INFO|AWT-EventQueue-0|sendToLocalServer|Sent    packet to server Packet[RUN_SUBMISSION] #3 TEAM632 @ site 1 -> SERVER0 @ site 1
+191022 203008.328|INFO|Thread-12|info| receiveObject(S) start got Packet[RUN_SUBMISSION_CONFIRM] #193 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 203008.329|INFO|Thread-12|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #193 ) recieveObject
+191022 203008.329|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (ntust @ 127.0.1.1) (Contest Id: Default-5078223832395999985)
+191022 203008.329|INFO|Thread-12|dumpPacket|    To: TEAM632 @ site 1
+191022 203008.330|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 17 QUEUED_FOR_COMPUTER_JUDGEMENT 508 min 30481327ms from TEAM632 @ site 1 id Run--2900151187275489164 problem Problem1--7237535937124190833 lang GNU C++11--1280420283167509282
+191022 203008.330|INFO|Thread-12|info|handlePacket start Packet[RUN_SUBMISSION_CONFIRM] #193 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 203008.330|INFO|Thread-12|dumpPacket|Packet RUN_SUBMISSION_CONFIRM (Seq #193 ) handlePacket
+191022 203008.331|INFO|Thread-12|dumpPacket|  From: SERVER0 @ site 1 (ntust @ 127.0.1.1) (Contest Id: Default-5078223832395999985)
+191022 203008.331|INFO|Thread-12|dumpPacket|    To: TEAM632 @ site 1
+191022 203008.331|INFO|Thread-12|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 17 QUEUED_FOR_COMPUTER_JUDGEMENT 508 min 30481327ms from TEAM632 @ site 1 id Run--2900151187275489164 problem Problem1--7237535937124190833 lang GNU C++11--1280420283167509282
+191022 203009.802|INFO|Thread-12|info| receiveObject(S) end   got Packet[RUN_SUBMISSION_CONFIRM] #193 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 203010.652|INFO|Thread-13|info| receiveObject(S) start got Packet[RUN_JUDGEMENT] #197 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 203010.653|INFO|Thread-13|dumpPacket|Packet RUN_JUDGEMENT (Seq #197 ) recieveObject
+191022 203010.653|INFO|Thread-13|dumpPacket|  From: SERVER0 @ site 1 (ntust @ 127.0.1.1) (Contest Id: Default-5078223832395999985)
+191022 203010.653|INFO|Thread-13|dumpPacket|    To: TEAM632 @ site 1
+191022 203010.653|INFO|Thread-13|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 17 JUDGED 508 min 30481327ms from TEAM632 @ site 1 id Run--2900151187275489164 problem Problem1--7237535937124190833 lang GNU C++11--1280420283167509282
+191022 203010.654|INFO|Thread-13|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes--2581707550288194410 id JudgementRecord--8257809530178659997
+191022 203010.654|INFO|Thread-13|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+191022 203010.654|INFO|Thread-13|info|handlePacket start Packet[RUN_JUDGEMENT] #197 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 203010.654|INFO|Thread-13|dumpPacket|Packet RUN_JUDGEMENT (Seq #197 ) handlePacket
+191022 203010.656|INFO|Thread-13|dumpPacket|  From: SERVER0 @ site 1 (ntust @ 127.0.1.1) (Contest Id: Default-5078223832395999985)
+191022 203010.656|INFO|Thread-13|dumpPacket|    To: TEAM632 @ site 1
+191022 203010.657|INFO|Thread-13|dumpPacket|   key: RUN is: edu.csus.ecs.pc2.core.model.Run Run 17 JUDGED 508 min 30481327ms from TEAM632 @ site 1 id Run--2900151187275489164 problem Problem1--7237535937124190833 lang GNU C++11--1280420283167509282
+191022 203010.657|INFO|Thread-13|dumpPacket|   key: JUDGEMENT_RECORD is: edu.csus.ecs.pc2.core.model.JudgementRecord Yes by JUDGE1 @ site 1 judgement Yes--2581707550288194410 id JudgementRecord--8257809530178659997
+191022 203010.657|INFO|Thread-13|dumpPacket|   key: CLIENT_ID is: edu.csus.ecs.pc2.core.model.ClientId SERVER0 @ site 1
+191022 203012.179|INFO|Thread-13|info| receiveObject(S) end   got Packet[RUN_JUDGEMENT] #197 SERVER0 @ site 1 -> TEAM632 @ site 1
+191022 203321.642|INFO|Thread-14|testRun|test run for Problem1 GNU C++11 file: /home/cathy/Desktop/Judge/ITSA/74次/test/test01.cpp
+191022 203321.646|DEBUG|Thread-14|compileProgram|before substitution: g++ -lm -O2 -std=c++11 -o {:basename}.exe {:mainfile}
+191022 203321.647|DEBUG|Thread-14|compileProgram|after  substitution: g++ -lm -O2 -std=c++11 -o test01.exe test01.cpp
+191022 203321.650|CONFIG|Thread-14|runProgram|executing: 'g++ -lm -O2 -std=c++11 -o test01.exe test01.cpp'
+191022 203325.904|DEBUG|Thread-14|executeProgram|before substitution: .\{:basename}.exe
+191022 203325.906|DEBUG|Thread-14|executeProgram|after  substitution: .\test01.exe
+191022 203325.907|CONFIG|Thread-14|runProgram|executing: '.\test01.exe'
+191022 203325.910|CONFIG|Thread-14|runProgram|Note: exec failed in RunProgram Cannot run program ".\test01.exe" (in directory "executesite1team632"): error=2, No such file or directory
+191022 203402.152|INFO|Thread-19|testRun|test run for Problem1 GNU C++11 file: /home/cathy/Desktop/Judge/ITSA/74次/test/test01.cpp
+191022 203402.166|DEBUG|Thread-19|compileProgram|before substitution: g++ -lm -O2 -std=c++11 -o {:basename}.exe {:mainfile}
+191022 203402.168|DEBUG|Thread-19|compileProgram|after  substitution: g++ -lm -O2 -std=c++11 -o test01.exe test01.cpp
+191022 203402.181|CONFIG|Thread-19|runProgram|executing: 'g++ -lm -O2 -std=c++11 -o test01.exe test01.cpp'
+191022 203455.889|INFO|Thread-19|executeProgram|Exception in executeProgram()
+|java.lang.SecurityException: Expected data file, was not created, file name is pp1.in
+|    at edu.csus.ecs.pc2.core.execute.Executable.executeProgram (Executable.java:1623)
+|    at edu.csus.ecs.pc2.core.execute.Executable.execute (Executable.java:310)
+|    at edu.csus.ecs.pc2.core.execute.Executable.execute (Executable.java:244)
+|    at edu.csus.ecs.pc2.ui.SubmitRunPane.testRun (SubmitRunPane.java:593)
+|    at edu.csus.ecs.pc2.ui.SubmitRunPane.testOrSubmitRun (SubmitRunPane.java:515)
+|    at edu.csus.ecs.pc2.ui.SubmitRunPane$7$1.run (SubmitRunPane.java:815)
+|    at java.lang.Thread.run (Thread.java:834)
+191022 203455.891|INFO|Thread-19|execute|Exception during execute() 
+|java.lang.SecurityException: java.lang.SecurityException: Expected data file, was not created, file name is pp1.in
+|    at edu.csus.ecs.pc2.core.execute.Executable.executeProgram (Executable.java:1872)
+|    at edu.csus.ecs.pc2.core.execute.Executable.execute (Executable.java:310)
+|    at edu.csus.ecs.pc2.core.execute.Executable.execute (Executable.java:244)
+|    at edu.csus.ecs.pc2.ui.SubmitRunPane.testRun (SubmitRunPane.java:593)
+|    at edu.csus.ecs.pc2.ui.SubmitRunPane.testOrSubmitRun (SubmitRunPane.java:515)
+|    at edu.csus.ecs.pc2.ui.SubmitRunPane$7$1.run (SubmitRunPane.java:815)
+|    at java.lang.Thread.run (Thread.java:834)
+191022 203626.670|INFO|Thread-24|testRun|test run for Problem1 GNU C++11 file: /home/cathy/Desktop/Judge/ITSA/74次/test/test01.cpp
+191022 203626.682|DEBUG|Thread-24|compileProgram|before substitution: g++ -lm -O2 -std=c++11 -o {:basename}.exe {:mainfile}
+191022 203626.683|DEBUG|Thread-24|compileProgram|after  substitution: g++ -lm -O2 -std=c++11 -o test01.exe test01.cpp
+191022 203626.695|CONFIG|Thread-24|runProgram|executing: 'g++ -lm -O2 -std=c++11 -o test01.exe test01.cpp'
+191022 203628.535|DEBUG|Thread-24|executeProgram|before substitution: .\{:basename}.exe
+191022 203628.538|DEBUG|Thread-24|executeProgram|after  substitution: .\test01.exe
+191022 203628.539|CONFIG|Thread-24|runProgram|executing: '.\test01.exe'
+191022 203628.546|CONFIG|Thread-24|runProgram|Note: exec failed in RunProgram Cannot run program ".\test01.exe" (in directory "executesite1team632"): error=2, No such file or directory
