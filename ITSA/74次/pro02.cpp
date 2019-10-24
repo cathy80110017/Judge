@@ -13,13 +13,17 @@ int main(){
 
         scanf("%f %f",&a, &b);
         
-        r = pow(pow(10 - a, 2) + pow(10 - b, 2), 1/2);
-        if (r > 10){
-            printf("0");
+        r = sqrt((10 - a)*(10 - a) + (10 - b)*(10 - b));
+        
+        if (r == 0){
+            printf("10\n");
         }
-        
-        printf("%d\n", int(10-r));
-        
+        else if (r > 10){
+            printf("0\n");
+        }
+        else{
+            printf("%d\n", int(11-r));
+        }
     }
     
     return 0;
