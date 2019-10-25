@@ -17,31 +17,26 @@ int main(){
             
             scanf("%ld",&b);
             int left = 1, right = n;
-            
-            if ((b < 1)||(b > a[n]))
-                printf("0\n");
-
-            else{
-                while (left < right){
-                    int mid = (left + right)/2;
-                    if (b == a[mid]){
-                        break;
-                    }
-                    else if (b > a[mid]){
-                        left = mid + 1;
-                    }
-                    else if (b < a[mid]){
-                        right = mid - 1;
-                    }
-                    //printf("%d %d\n", left, right);
-                }
-                if (b != a[(left + right)/2]){
-                    printf("0\n");
-                }
-                else{
-                    printf("%d\n",(left + right)/2);
-                }
+            while (left < right){
+                int mid = (left + right)/2;
+                if (b == a[mid])
+                    break;
+                
+                else if (b > a[mid])
+                    left = mid + 1;
+                
+                else if (b < a[mid])
+                    right = mid - 1;
+                
+                //printf("%d %d\n", left, right);
             }
+            if (b != a[(left + right)/2])
+                printf("0\n");
+            
+            else
+                printf("%d\n",(left + right)/2);
+            
+
         }   
     }
     return 0;
