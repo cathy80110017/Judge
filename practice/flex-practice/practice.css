@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.item{
+    height: 200px;
+    width: 250px;
+}
+
+.bg-black{
+    background-color: rgb(64, 50, 66);
+}
+
+.bg-gray{
+    background-color: gray;
+}
+
+.bg-yellow{
+    background-color: rgb(204, 191, 131);
+}
+
+.bg-red{
+    background-color: rgb(226, 86, 86);
+}
+
+.text_right{
+    text-align:right;
+}
+
+.text_bootom{
+    vertical-align:bottom;	
+}
+
+.right-bottom {
+    display: flex;
+    align-items: flex-end;
+}
+
+.left-bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

@@ -4,46 +4,59 @@
 #include<vector>
 using namespace std;
 
-int find(int q , vector<int> num, int n){       //找第一個比q大的
-    int left = 0, right = n;
-
+int find(int q , int num[], int n){       //找第一個比q大的
+    int left = 1, right = n;
+    int mid; 
     while (left < right){
-        int mid = (left + right)/2;             //mid最後要等於第一個比q大的
-        if (num[mid] > q){
-            left = mid + 1;
+        if (q < num[1]){
+            left = 0;
+            right = 0;
+            break;
+        }
+        mid = (left + right) / 2;
+        //printf("l,r = %d %d\n", left,right);
+        //printf("mid = %d\n", mid);
+        if (q >= num[mid]){
+            if (q < num[mid + 1]){
+                left = mid;
+                right = mid;
+            }
+            else{
+                left = mid + 1;
+            }
+               
         }
         else{
             right = mid - 1;
         }
-        printf("mid = %d\n", mid);
+        //printf("l,r = %d %d\n", left,right);
     }
-
-    return (left + right)/2;
+    mid = (left + right) / 2;
+    return mid;
 }
 
 int main(){
+    //ios :: sync_with_stdio(0) , cin.tie(0);
     int n, q;
     while (scanf("%d %d",&n, &q)!=EOF){
-        vector <int> num(n , 0);
-        for (int i = 0; i < n; i++){
+        int num[n + 1] = {0};
+        for (int i = 1; i <= n; i++){
             scanf("%d",&num[i]);
         }
-        sort(num.begin() , num.end());
+        sort(num + 1, num + n + 1);
     
         for (int i = 0; i < q; i++){
             int question;
-            scanf("%d", &question);
-            int ans = find(question, num, n-1);
+            scanf("%d", &question);         //輸入要找的
+            int ans = find(question, num, n);
 
-            printf("ans = %d\n", ans);
-            if (ans%2 == 0){
+            //printf("%d\n",ans);
+
+            if (ans%2 == 0)
                 printf("0\n");
-            }
-            else{
+            else
                 printf("1\n");
-            }
         }
     }
     return 0;
 }
-

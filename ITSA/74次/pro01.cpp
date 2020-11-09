@@ -16,7 +16,7 @@ int main(){
     }
 
         
-    printf("%ld", long(num));
+    printf("%lld", long long(num));
     
     return 0;
 }

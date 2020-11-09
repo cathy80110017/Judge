@@ -9,8 +9,8 @@ int n[1000];
 int num;
 
 void quicksort(int a, int b){                   //開頭(a)跟 結尾/基準(b)
-    if (a<b) {
-        int i=a-1,j=a;                                   //i=開頭前一個, j=開頭
+    if (a < b) {
+        int i = a - 1, j = a;                                   //i=開頭前一個, j=開頭
         while (j <= b){                                  //如果j還沒碰到基準
             if (n[j] <= n[b])                               //如果j小於基準
                 swap(n[++i],n[j]);                              //j跟i的下一個交換   
